@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Project_03</title>
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <!-- Preconnect CSS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+        <!-- Embed font -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Font Awesome -->
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header header__fixed">
+            <section class="header__main-content main-content">
+                <!-- Navigation -->
+                <nav class="headed__navbar">
+                    <!-- Logo -->
+                    <a href="#" class="navbar__logo">
+                        <img
+                            src="./assets/img/logo.svg"
+                            alt="MODULARS"
+                            class="navbar__icon"
+                        />
+                    </a>
+                    <!-- List navbar -->
+                    <ul class="navbar__list-nav">
+                        <li class="navbar__nav-items">
+                            <div class="navbar__links">
+                                <a
+                                    href="#home"
+                                    class="navbar__link"
+                                    title="Home"
+                                    >Home</a
+                                >
+                            </div>
+                        </li>
+                        <li class="navbar__nav-items">
+                            <div class="navbar__links">
+                                <a
+                                    href="#about"
+                                    class="navbar__link"
+                                    title="About"
+                                    >About</a
+                                >
+                            </div>
+                        </li>
+                        <li class="navbar__nav-items">
+                            <div class="navbar__links">
+                                <a
+                                    href="#blog"
+                                    class="navbar__link"
+                                    title="Blog"
+                                    >Blog</a
+                                >
+                            </div>
+                        </li>
+                        <li class="navbar__nav-items">
+                            <div class="navbar__links">
+                                <a
+                                    href="#contact"
+                                    class="navbar__link"
+                                    title="Contact"
+                                    >Contact</a
+                                >
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="navbar__action">
+                        <button class="navbar__btn btn">Sign up</button>
+                    </div>
+                </nav>
+                <!-- Separate -->
+                <div class="header__separate"></div>
+            </section>
+        </header>
+
+        <!-- Main -->
+        <main>
+            <!-- Hero -->
+            <section id="home" class="hero">
+                <div class="hero__main-content main-content">
+                    <section class="hero__container">
+                        <!-- Hero left -->
+                        <section class="hero__content">
+                            <h1 class="hero__title">
+                                We’re a creative design agency.
+                            </h1>
+                            <p class="hero__desc">
+                                A brilliant, modular agency template for
+                                startup’s build yours toady.
+                            </p>
+                            <a href="" class="hero__actions">
+                                <button class="hero__actions-btn btn">
+                                    Get in touch
+                                </button>
+                                <div class="hero__actions-click">
+                                    <img
+                                        src="./assets/img/Hero-img/click1.svg"
+                                        alt="icon"
+                                        class="hero__actions-icon"
+                                    />
+                                    <img
+                                        src="./assets/img/Hero-img/click2.svg"
+                                        alt="icon"
+                                        class="hero__actions-icon"
+                                    />
+                                </div>
+                                <p class="hero__actions-desc">Watch Video</p>
+                            </a>
+                        </section>
+
+                        <!-- Hero right -->
+                        <figure class="hero__images">
+                            <img
+                                src="./assets/img/Hero-img/thumb1.jpg"
+                                alt="thumb"
+                                class="hero__images-img"
+                            />
+                            <img
+                                src="./assets/img/Hero-img/thumb2.jpg"
+                                alt="thumb"
+                                class="hero__images-img"
+                            />
+                            <img
+                                src="./assets/img/Hero-img/thumb3.jpg"
+                                alt="thumb"
+                                class="hero__images-img"
+                            />
+                            <img
+                                src="./assets/img/Hero-img/thumb4.svg"
+                                alt="thumb"
+                                class="hero__images-img"
+                            />
+                            <img
+                                src="./assets/img/Hero-img/thumb5.svg"
+                                alt="thumb"
+                                class="hero__images-img"
+                            />
+                            <img
+                                src="./assets/img/Hero-img/thumb6.svg"
+                                alt="thumb"
+                                class="hero__images-img"
+                            />
+                            <img
+                                src="./assets/img/Hero-img/thumb7.svg"
+                                alt="thumb"
+                                class="hero__images-img"
+                            />
+                        </figure>
+                    </section>
+                </div>
+            </section>
+
+            <!-- Clients -->
+            <section class="clients">
+                <div class="clients__container">
+                    <img
+                        src="./assets/img/clients-img/Google.svg"
+                        alt="Google"
+                        class="clients__brand"
+                    />
+                    <img
+                        src="./assets/img/clients-img/Slack.svg"
+                        alt="Slack"
+                        class="clients__brand"
+                    />
+                    <img
+                        src="./assets/img/clients-img/agworld.svg"
+                        alt="Agworld"
+                        class="clients__brand"
+                    />
+                    <img
+                        src="./assets/img/clients-img/riotino.svg"
+                        alt="RioTino"
+                        class="clients__brand"
+                    />
+                    <img
+                        src="./assets/img/clients-img/heroku.svg"
+                        alt="HEROKU"
+                        class="clients__brand"
+                    />
+                </div>
+            </section>
+            <!-- Services -->
+            <section class="services">
+                <section class="services__main-content main-content">
+                    <!-- Services content -->
+                    <section class="services__content">
+                        <p class="services__content-header">OUR SERVICES</p>
+                        <section class="services__content-body">
+                            <h2 class="content-body__title">
+                                We offer a wide range of design services
+                            </h2>
+                            <div class="services__content-direction">
+                                <div class="direction__arrow">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </div>
+                                <div class="direction__arrow">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                    <!-- Services  images-->
+                    <figure class="services__images">
+                        <ul class="services__images-list">
+                            <!-- Service images items -->
+                            <li class="services__images-items">
+                                <div class="images-items__item">
+                                    <img
+                                        src="./assets/img/services-img/thumb1.jpg"
+                                        alt="thumb"
+                                        class="item__thumb"
+                                    />
+                                </div>
+                                <figcaption class="images-items__body">
+                                    <h3 class="images-items__body-title">
+                                        Branding
+                                    </h3>
+                                    <p class="images-items__body-desc">
+                                        Create beautiful Agency website with
+                                        Boluethat converts more visitors than
+                                        any website.
+                                    </p>
+                                </figcaption>
+                            </li>
+                            <!-- Service images items -->
+                            <li class="services__images-items">
+                                <div class="images-items__item">
+                                    <img
+                                        src="./assets/img/services-img/thumb2.jpg"
+                                        alt="thumb"
+                                        class="item__thumb"
+                                    />
+                                </div>
+                                <figcaption class="images-items__body">
+                                    <h3 class="images-items__body-title">
+                                        Web Design
+                                    </h3>
+                                    <p class="images-items__body-desc">
+                                        Create beautiful Agency website with
+                                        Boluethat converts more visitors than
+                                        any website.
+                                    </p>
+                                </figcaption>
+                            </li>
+                            <!-- Service images items -->
+                            <li class="services__images-items">
+                                <div class="images-items__item">
+                                    <img
+                                        src="./assets/img/services-img/thumb3.jpg"
+                                        alt="thumb"
+                                        class="item__thumb"
+                                    />
+                                </div>
+                                <figcaption class="images-items__body">
+                                    <h3 class="images-items__body-title">
+                                        Graphic Design
+                                    </h3>
+                                    <p class="images-items__body-desc">
+                                        Create beautiful Agency website with
+                                        Boluethat converts more visitors than
+                                        any website.
+                                    </p>
+                                </figcaption>
+                            </li>
+                        </ul>
+                    </figure>
+                </section>
+            </section>
+            <!-- Info -->
+            <section class="info">
+                <section class="info__main-content main-content">
+                    <section class="info__container">
+                        <!-- Info images -->
+                        <figure class="info__images">
+                            <img
+                                src="./assets/img/info-img/thumb1.jpg"
+                                alt="thumb"
+                                class="info__images-thumb"
+                            />
+                            <img
+                                src="./assets/img/info-img/thumb2.jpg"
+                                alt="thumb"
+                                class="info__images-thumb"
+                            />
+                            <img
+                                src="./assets/img/info-img/thumb3.svg"
+                                alt="thumb"
+                                class="info__images-thumb"
+                            />
+                            <img
+                                src="./assets/img/info-img/thumb4.svg"
+                                alt="thumb"
+                                class="info__images-thumb"
+                            />
+                            <!-- Report block -->
+                            <section class="info__images-report">
+                                <h3 class="report__title">All Desingners</h3>
+                                <p class="report__desc">Total Balance</p>
+                                <p class="report__percent">40%</p>
+                                <div class="report__percent-icons">
+                                    <img
+                                        src="./assets/img/info-img/icon1.svg"
+                                        alt="icon-percent"
+                                        class="report__percent-icon"
+                                    />
+                                    <img
+                                        src="./assets/img/info-img/icon2.svg"
+                                        alt="icon-percent"
+                                        class="report__percent-icon"
+                                    />
+                                </div>
+                                <p class="report__percent-desc">Loading...</p>
+                                <img
+                                    src="./assets/img/info-img/icon3.svg"
+                                    alt="icon"
+                                    class="report__icon"
+                                />
+                                <div class="report__avatars">
+                                    <p class="report__avatars-desc">Teams:</p>
+                                    <div class="report__avatars-thumbs">
+                                        <div class="report__avatars-thumb">
+                                            <img
+                                                src="./assets/img/info-img/avatar1.jpg"
+                                                alt="avatar"
+                                                class="report__avatars-icon"
+                                            />
+                                        </div>
+                                        <div class="report__avatars-thumb">
+                                            <img
+                                                src="./assets/img/info-img/avatar2.jpg"
+                                                alt="avatar"
+                                                class="report__avatars-icon"
+                                            />
+                                        </div>
+                                        <div class="report__avatars-thumb">
+                                            <img
+                                                src="./assets/img/info-img/avatar3.jpg"
+                                                alt="avatar"
+                                                class="report__avatars-icon"
+                                            />
+                                        </div>
+                                        <div class="report__avatars-thumb">
+                                            <img
+                                                src="./assets/img/info-img/avatar4.jpg"
+                                                alt="avatar"
+                                                class="report__avatars-icon"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </figure>
+                        <!-- Info content -->
+                        <section class="info__content">
+                            <p class="info__content-header">ABOUT US</p>
+                            <h2 class="info__content-title">
+                                We are an extention of your creative team
+                            </h2>
+                            <p class="info__content-desc">
+                                At the start of every project, we cusomizea
+                                detailed project plan together with you set
+                                exectationns ensure alighment and define key
+                                milestones and deiverbles.
+                            </p>
+                            <div class="info__content-stats">
+                                <strong class="stats__percent"> 48%</strong>
+                                <p class="stats__desc">
+                                    Are you strive for two things in design
+                                    simplicity and clarity. Great design is born
+                                    of those two things
+                                </p>
+                            </div>
+                            <div class="info__content-separate"></div>
+                            <div class="info__content-stats">
+                                <strong class="stats__percent"> 26%</strong>
+                                <p class="stats__desc">
+                                    Are you strive for two things in design
+                                    simplicity and clarity. Great design is born
+                                    of those two things
+                                </p>
+                            </div>
+                            <div class="info__content-separate"></div>
+                        </section>
+                    </section>
+                </section>
+            </section>
+            <!-- Process -->
+            <section id="about" class="process">
+                <section class="process__main-content main-content">
+                    <!-- Process header -->
+                    <p class="process__header">OUR PROCESS</p>
+                    <h2 class="process__title">
+                        A simple ,yet effective three step process
+                    </h2>
+                    <!-- Process body -->
+                    <section class="process__body">
+                        <ul class="process__list">
+                            <li class="process__items">
+                                <strong class="process__items-strong"
+                                    >01.</strong
+                                >
+                                <div class="process__items-title">
+                                    <h3 class="process__items-sub-title">
+                                        Project idea
+                                    </h3>
+                                    <p class="process__items-more">
+                                        Learn More
+                                    </p>
+                                </div>
+                                <p class="process__items-desc">
+                                    We customse a ensure aligment and difine key
+                                    mileones and defiverables experience tells
+                                    us the best solutions are the ones deated
+                                    with clients.
+                                </p>
+                                <img
+                                    src="./assets/img/process-img/img1.svg"
+                                    alt="thumb"
+                                    class="process__items-image"
+                                />
+                            </li>
+                            <li class="process__items">
+                                <strong class="process__items-strong"
+                                    >02.</strong
+                                >
+                                <div class="process__items-title">
+                                    <h3 class="process__items-sub-title">
+                                        Project idea
+                                    </h3>
+                                    <p class="process__items-more">
+                                        Learn More
+                                    </p>
+                                </div>
+                                <p class="process__items-desc">
+                                    We customse a ensure aligment and difine key
+                                    mileones and defiverables experience tells
+                                    us the best solutions are the ones deated
+                                    with clients.
+                                </p>
+                                <img
+                                    src="./assets/img/process-img/img1.svg"
+                                    alt="thumb"
+                                    class="process__items-image"
+                                />
+                            </li>
+
+                            <li class="process__items">
+                                <strong class="process__items-strong"
+                                    >03.</strong
+                                >
+                                <div class="process__items-title">
+                                    <h3 class="process__items-sub-title">
+                                        Project idea
+                                    </h3>
+                                    <p class="process__items-more">
+                                        Learn More
+                                    </p>
+                                </div>
+                                <p class="process__items-desc">
+                                    We customse a ensure aligment and difine key
+                                    mileones and defiverables experience tells
+                                    us the best solutions are the ones deated
+                                    with clients.
+                                </p>
+                                <img
+                                    src="./assets/img/process-img/img1.svg"
+                                    alt="thumb"
+                                    class="process__items-image"
+                                />
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+            <!-- Project -->
+            <section class="project">
+                <section class="project__main-content main-content">
+                    <section class="project__header">
+                        <h2 class="project__title">
+                            A quick glance of our past projects
+                        </h2>
+                        <div class="project__content">
+                            <p class="project__desc">
+                                Are you strive for the fast project simplicity
+                                and clarity. Great design is born of those two
+                                things.
+                            </p>
+                            <div class="project__more">
+                                <p class="project__more-desc">
+                                    Browse all Projects
+                                </p>
+                                <div class="project__more-direction">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Project images -->
+                    <figure class="project__images">
+                        <img
+                            src="./assets/img/project-img/thumb.jpg"
+                            alt="thumb"
+                            class="project__images-thumb"
+                        />
+                        <div class="project__images-label">
+                            <div class="project__images-icon"></div>
+                        </div>
+                    </figure>
+                </section>
+            </section>
+            <!-- Features -->
+            <section class="features">
+                <section class="features__main-content main-content">
+                    <section class="features__content">
+                        <h2 class="features__title">
+                            Share the features that help your customers
+                        </h2>
+                        <p class="features__desc">
+                            You already know that the customer experience
+                            doesn't end with a sale — it's an ongoing work in
+                            progress that companies should be constantly seeking
+                            to improve and iterate on.
+                        </p>
+                    </section>
+
+                    <!-- Features body -->
+                    <ul class="features__list">
+                        <li class="features__items">
+                            <img
+                                src="./assets/img/features-img/icon1.svg"
+                                alt="icon"
+                                class="features__items-icon"
+                            />
+                            <h3 class="features__items-title">Blog</h3>
+                            <p class="features__items-desc">
+                                We’ve researched numerous agencies and complied
+                                a list of digital marketing agency blogs you
+                                should read to stay ahead of your rivals and
+                                succeed online!
+                            </p>
+                        </li>
+                        <li class="features__items">
+                            <img
+                                src="./assets/img/features-img/icon2.svg"
+                                alt="icon"
+                                class="features__items-icon"
+                            />
+                            <h3 class="features__items-title">Documention</h3>
+                            <p class="features__items-desc">
+                                In this article, we discuss the different types
+                                of documentation, what makes for great technical
+                                documentation, and provide examples.
+                            </p>
+                        </li>
+                        <li class="features__items">
+                            <img
+                                src="./assets/img/features-img/icon3.svg"
+                                alt="icon"
+                                class="features__items-icon"
+                            />
+                            <h3 class="features__items-title">Customers</h3>
+                            <p class="features__items-desc">
+                                Your customers have high expectations — and if
+                                your business can't meet them, they're going to
+                                leave you for your competitors.
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+            <!-- Blogs -->
+            <article id="blog" class="blogs">
+                <section class="blogs__main-content main-content">
+                    <p class="blogs__header">BLOG & ARTICLES</p>
+                    <section class="blogs__content">
+                        <h2 class="blogs__title">
+                            Take a look at our latest articles and resources
+                        </h2>
+                        <p class="blogs__desc">
+                            The best agency are the ones ideated with clients.
+                            we corporate your ideas with memorable
+                        </p>
+                    </section>
+                    <!-- Blogs list -->
+                    <ul class="blogs__list">
+                        <li class="blogs__items">
+                            <div class="blogs__items-img">
+                                <img
+                                    src="./assets/img/blogs-img/thumb1.jpg"
+                                    alt="thumb"
+                                    class="blogs__items-thumb"
+                                />
+                            </div>
+                            <div class="blogs__items-container">
+                                <div class="blogs__items-title">
+                                    <p class="blogs__items-sub-title">
+                                        STORIES
+                                    </p>
+                                </div>
+                                <p class="blogs__items-desc">
+                                    What did we learn from nunning over 100
+                                    design sprints in less the year?
+                                </p>
+                                <div class="blogs__items-separate"></div>
+                                <p class="blogs__items-date">
+                                    JANUARY 29, 2022
+                                </p>
+                            </div>
+                        </li>
+                        <li class="blogs__items">
+                            <div class="blogs__items-img">
+                                <img
+                                    src="./assets/img/blogs-img/thumb2.jpg"
+                                    alt="thumb"
+                                    class="blogs__items-thumb"
+                                />
+                            </div>
+                            <div class="blogs__items-container">
+                                <div class="blogs__items-title">
+                                    <p class="blogs__items-sub-title">
+                                        STORIES
+                                    </p>
+                                </div>
+                                <p class="blogs__items-desc">
+                                    The difference between the UI/UX design a
+                                    simple guide for beginner’s
+                                </p>
+                                <div class="blogs__items-separate"></div>
+                                <p class="blogs__items-date">
+                                    JANUARY 29, 2022
+                                </p>
+                            </div>
+                        </li>
+                        <li class="blogs__items">
+                            <div class="blogs__items-img">
+                                <img
+                                    src="./assets/img/blogs-img/thumb3.jpg"
+                                    alt="thumb"
+                                    class="blogs__items-thumb"
+                                />
+                            </div>
+                            <div class="blogs__items-container">
+                                <div class="blogs__items-title">
+                                    <p class="blogs__items-sub-title">
+                                        STORIES
+                                    </p>
+                                </div>
+                                <p class="blogs__items-desc">
+                                    How marketing can help your business more
+                                    than anything.
+                                </p>
+                                <div class="blogs__items-separate"></div>
+                                <p class="blogs__items-date">
+                                    JANUARY 29, 2022
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+        </main>
+
+        <!-- Footer -->
+        <footer id="contact" class="footer">
+            <section class="footer__main-content main-content">
+                <section class="footer__container">
+                    <section class="footer__content">
+                        <h2 class="footer__title">
+                            Sign up for our newsletter
+                        </h2>
+                        <div class="footer__action">
+                            <input
+                                class="footer__action-email"
+                                type="email"
+                                placeholder="Enter your email"
+                            />
+                            <div class="footer__action-arrow">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                        <div class="footer__content-separate"></div>
+                        <div class="footer__social">
+                            <div class="footer__social-icon">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="footer__social-icon">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                            <div class="footer__social-icon">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Footer contact  -->
+                    <div class="footer__contact">
+                        <ul class="footer__contact-list">
+                            <li class="footer__contact-items">
+                                <h3 class="footer__contact-title">Pages</h3>
+                                <p class="footer__contact-desc">Home</p>
+                                <p class="footer__contact-desc">About</p>
+                                <p class="footer__contact-desc">Blog</p>
+                                <p class="footer__contact-desc">Blog Post</p>
+                            </li>
+                            <li class="footer__contact-items">
+                                <h3 class="footer__contact-title">Product</h3>
+                                <p class="footer__contact-desc">Home</p>
+                                <p class="footer__contact-desc">About</p>
+                                <p class="footer__contact-desc">Blog</p>
+                                <p class="footer__contact-desc">Blog Post</p>
+                            </li>
+                            <li class="footer__contact-items">
+                                <h3 class="footer__contact-title">Overview</h3>
+                                <p class="footer__contact-desc">Home1</p>
+                                <p class="footer__contact-desc">Home2</p>
+                                <p class="footer__contact-desc">Home3</p>
+                                <p class="footer__contact-desc">Pricing1</p>
+                            </li>
+                            <li class="footer__contact-items">
+                                <h3 class="footer__contact-title">About us</h3>
+                                <p class="footer__contact-desc">Team</p>
+                                <p class="footer__contact-desc">Investors</p>
+                                <p class="footer__contact-desc">Blog</p>
+                                <p class="footer__contact-desc">Press</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Footer Copyright -->
+                <div class="footer__separate"></div>
+                <p class="footer__copyright">@Copyright by GAO 2024</p>
+            </section>
+        </footer>
+    </body>
+</html>
